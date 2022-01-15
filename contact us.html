@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>gym</title>
+     <link rel="stylesheet" href="contact us.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Courgette&family=Rajdhani:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+<body>
+     <header>
+          <!-- left box for logo -->
+          <div id="left"> <img id="logo" src="img/Logo .png" alt="This is logo"></div>
+          <!-- mid box for navigation -->
+          <div id="mid">
+               <ul id="navbar">
+                    <li class="item"><a href="home.html">Home</a></li>
+                    <li class="item"><a href="about us.html">About Us</a></li>
+                    <li class="item"><a href="contact us.html">Contact Us</a></li>
+                    <li class="item"><a href="privacy policy.html">Privacy policy</a></li>
+               </ul>
+
+          </div>
+          <!-- right box for search -->
+          <div id="right">
+               <div id="search">
+                    <a href="#"> search</a>
+                    <input type="text" name="search" placeholder="search here">
+               </div>
+          </div>
+     </header>
+          <!-- This is the body section  -->
+     <section id="background">
+       
+          <!-- This is the content box -->
+          <div id="content" >
+               <div id="text"><h1>Contact us</h1> </div>
+               <div id="sub-content">
+                    <form action="backend.php">
+                         <div>
+                              <label for="name">Name:</label>
+                              <input type="text" name="myName" id="name" >
+                         </div>
+                         <div>
+                              <label for="gmail">Gmail:</label>
+                              <input type="text" name="myGmail" id="gmail" >
+                         </div>
+                         <div>
+                              <label for="subject">Subject:</label>
+                              <input type="text" name="mySubject"  id="subject" >
+                         </div>
+                         <div>
+                              <label for="contactNo">Contact No:</label>
+                              <input type="number" name="myContactNo" id="contactNo"   >
+                         </div>
+                         <div>
+                              Gender:
+                              <label for="male">Male:</label>
+                              <input type="radio" name="myGender" id="male" >
+                              <label for="female">Female:</label> 
+                              <input type="radio" name="myGender" id="female" >
+                              <label for="other">other:</label> 
+                              <input type="radio" name="myGender" id="other" >
+                         </div>
+                         <div>
+                              <label for="nationality">You are :</label>
+                              <select name="mySubject" id="nationality" >
+                                   <option value="indian">Indian</option>
+                                   <option value="nonindian">Non indian</option>
+                              </select>   
+                         </div>
+                         <div>
+                              <p> Write your message:</p>
+                              <textarea name="myText" cols="20" rows="1"></textarea>
+                         
+                         </div>
+                         
+                         <div>
+                              <label for="informations">All the above informations are correct:</label>
+                              <input type="checkbox" name="myInformations" id="informations" checked >
+                         </div>
+                         <div>
+                              <input type="submit" value="Submit Now">
+                              <input type="reset" value="Reset Now">
+                         </div>
+                         
+                         
+                        
+                    </form>
+                    <img src="img/contact us.png" alt="">
+               </div>
+
+          </div>
+     </section>
+          <!-- This is the footer -->
+     <footer >
+          <div>
+                <div class="footeritem"> Privacy Policy </div>
+
+          </div>
+          <div>
+               <div  class="footeritem"> Contact Us </div>
+          </div>         
+          <div>
+               <div  class="footeritem"> About Us</div>
+          </div>
+     </footer>
+     
+</body>
+</html>
